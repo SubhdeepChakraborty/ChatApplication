@@ -17,11 +17,11 @@ const Message = ({ message }) => {
   return (
     <div
       ref={ref}
-      className={`flex gap-5 mb-[20px] message ${
+      className={`flex gap-3 mb-[20px] message ${
         message.senderId === currentUser.uid && "owner"
       }`}
     >
-      <div className="messageInfo flex flex-col text-gray-500 font-[300]">
+      <div className="messageInfo flex flex-col items-center justify-center text-gray-500 font-[300]">
         <img
           src={
             message.senderId === currentUser.uid

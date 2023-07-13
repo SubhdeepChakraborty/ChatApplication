@@ -21,7 +21,7 @@
   background-color: transparent;
 }
 
-@media (max-width: 1254px) {
+/* @media (max-width: 1254px) {
   .logo {
     display: none;
   }
@@ -96,4 +96,23 @@
   .width {
     width: 100%;
   }
+} */
+
+.chat {
+  font-size: 2vw;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.xDiv {
+  will-change: transform;
+  transition: transform 1s cubic-bezier(1, 0, 0, 1);
+  transform: translateX(-100%);
+}
+
+.XDivX {
+  will-change: transform;
+  transition: transform 1s cubic-bezier(1, 0, 0, 1);
+  transform: translateX(0);
 }
