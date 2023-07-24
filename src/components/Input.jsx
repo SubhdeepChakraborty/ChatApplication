@@ -74,11 +74,11 @@ const Input = () => {
 
   return (
     <div className="h-[60px] bg-white p-5 flex items-center justify-between">
-      <div>
+      <div className="w-[100%]">
         <input
           type="text"
           placeholder="Say Hello..."
-          className="w-[450px] p-1 font-[Sen] outline-none input"
+          className="w-[70%] p-1 font-[Sen] outline-none input"
           onChange={(e) => setText(e.target.value)}
           value={text}
         />
